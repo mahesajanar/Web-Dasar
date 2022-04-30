@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.jumbotron {
+    font-size: 20px;
+    padding: 15px;
+    background-color: hsl(302, 73%, 28%);
+    text-align: center;
+    color: white;
+    margin: auto;
+    position: relative;
+}
+
+ .logo a {
+   font-size: 50px;
+   font-weight: 800;
+   float: left;
+   font-family: courier;
+   color: white;
+}
+
+.logo a {
+   display: block;
+   width: 100%;
+   text-align: center;
+}
+
+body {
+    font-family: 'Open Sans',sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+ }
+
+h1 {
+    color: white;
+} 
+
+h2{
+    color: #7a1377;
+}
+
+h3 {
+    color: #7a1377;
+    text-align: center;
+}
+
+p {
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+footer {
+    padding: 10px;
+    color: white;
+    background-color: #7a1377;
+    text-align: center;
+    font-weight: bold;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    margin: 0;
+}
+
+ nav a:hover {
+    font-weight: bold;
+}
+
+ nav li {
+    list-style-type: none;
+    margin-right: 20px;
+    display: inline-block
+}
+
+ nav .menu {
+   width: 100%;
+   margin: 0;
+}
+
+nav .menu ul {
+   text-align: center;
+   margin: auto;
+   line-height: 40px;
+}
+
+nav .menu ul li {
+   display: inline-block;
+}
+
+nav {
+    background-color: rgb(99, 145, 7) ;
+    padding: 1px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    width: 100%;
+    margin: auto;
+    border-bottom: 3px solid yellow;
+    border-top: 1px solid yellow;
+}
+
+ a:hover {
+    color: yellow;
+    text-decoration: none;
+}
+
+ a.tbl-ungu {
+   background: #7a1377;
+   border-radius: 20px;
+   margin-top: 10px;
+   padding: 8px 15px 8px 15px;
+   cursor: yellow;
+   font-weight: bold;
+}
+
+ header {
+    display: inline;
+}
+ 
+ .profile header {
+    text-align: center;
+}
+
+ li {
+    display: inline;
+    margin-left: 5px;
+}
+
+ .featured-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+ .profile-img {
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+ .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+ #content {
+    float: left;
+    width: 75%;
+}
+
+ aside {
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+}
+
+ @media screen and (max-width: 1000px) {
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+ }
+
+ table {
+    border: 2;
+    width: 100%;
+    height: 100%;
+  
+ }
